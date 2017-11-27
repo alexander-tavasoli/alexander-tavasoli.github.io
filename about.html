@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href+"assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+              loopHorizontal: false,
+            });
+        });
+    </script>
+    <style>
+      p{
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: 20px;
+      }
+      h1{
+          font-size: 4em;
+          text-align: center;
+          margin-left: 25%;
+          margin-right: 25%;
+          font-family: 'Lato', sans-serif;
+      }
+      #end{
+        font-size: 2.5em;
+      }
+      #play{
+        font-size: 4em;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        color: green;
+      }
+  </style>
+</head>
+  <body>
+      <div id="fullpage">
+          <div class="section">
+              <div class="slide">
+                <h1> Net Neutrality is the Open Internet</h1>
+                <p>For decades now, we have enjoyed open access to all data on the internet.
+                This is because of Net Neutrality or the belief that all data, regardless of its
+                source, is equal. Think of the internet, at least right now, like a giant pipeline where
+                all content is given equal opportunity and no particular service or website
+                can receive priority. However, things are changing as lobbyists and the chairman of the FCC, Ajit Pai,
+              threaten to repeal many of the formalized regulations protecting Net Neutrality.</p></div>
+              <div class="slide"> <h1> Net Neutrality is Necessary</h1>
+                <p>Without Net Neutrality, the internet would never be the same. For example, as of right now, people
+                  pay for internet speed, basically how fast an Internet Service Provider (ISP) will send the data you are accessing to your computer.
+                In a world without Net Neutrality, we could see data "plans" similar to those of cell phones. Considering that each latenight binge of Stranger Things
+                is probably enough cellular data for a month, this would mean drastically higher prices for consumers. Moreover, even if ISPs decide
+                not to exploit consumers this way, they can throttle, slow down, certain services they don't like to the point of not functioning.
+              </p> </div>
+              <div class="slide"><h1> Net Neutrality is the Enemy of ISPs </h1>
+              <p> ISPs such as Verizon and Comcast stand to gain the most from the
+                  end of Net Neutrality as they are, coincidentally, also the companies
+                  that provide the bulk of America's television as well as Internet access.
+                  Because the internet has taken so much of the potential marketshare for cable,
+                  you don't have to be an economist to realize why they want control over the way we
+                  browse. This is also obvious from the intense lobbying ISPs have committed and from the fact that
+                  Ajit Pai, the current Chairman of the FCC which is a department established to regulate ISPs, used to be an exectuvie for an ISP himself. Not only
+                  is this a blatant example of the intense corruption in many parts of regulatory government, it shows just how much ISPs care about this issue.</p></div>
+              <div class="slide">
+                <h1 id="end"> Now that you know a bit about Net Neutrality...</h1>
+                <a id="play" href="game.html"> <h2>PLAY!</h2> </a>
+          </div>
+      </div>
+  </body>
+</html>
